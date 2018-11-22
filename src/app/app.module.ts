@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BaseComponent } from './base/base.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { WeatherComponent } from './weather/weather.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     HeaderComponent,
     FooterComponent,
     BaseComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    WeatherComponent
   ],
   imports: [
     BrowserModule,
